@@ -11,8 +11,13 @@
       <div slot="text">分类</div>
     </tab-bar-item>
     <tab-bar-item link="/cart">
+<<<<<<< HEAD
       <img slot="icon" src="~assets/img/tabbar/cart.svg" alt="">
       <img slot="active-icon" src="~assets/img/tabbar/cart_active.svg" alt="">
+=======
+      <img slot="icon" src="../../../assets/img/tabbar/cart.svg" alt="">
+      <img slot="active-icon" src="../../../assets/img/tabbar/cart_active.svg" alt="">
+>>>>>>> 1049041f2f0d320294b170adb2890e84194cacea
       <div slot="text">购物车</div>
     </tab-bar-item>
     <tab-bar-item link="/profile">

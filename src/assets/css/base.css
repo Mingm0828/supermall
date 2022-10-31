@@ -1,5 +1,6 @@
 @import "./normalize.css";
 
+<<<<<<< HEAD
  :root {    /* 获取根元素 */
   --color-text: #666;
   --color-high-text: #ff5777;
@@ -7,6 +8,18 @@
   --color-background: #fff;
   --font-size: 14px;
   --line-height: 1.5;      /*css定义变量的方式 */
+=======
+/* :root -> 获取根元素html */
+:root {
+    /* css定义变量 */
+  --color-text: #666;
+  --color-high-text: #ff5777;
+  --color-tint: #ff8198;  /*导航背景颜色 */
+  --color-background: #fff;
+  --font-size: 14px;
+  --line-height: 1.5;
+  /* background: var(--color-background);  引入css中定义的变量方式 */
+>>>>>>> 1049041f2f0d320294b170adb2890e84194cacea
 }
 
 *,
@@ -21,10 +34,17 @@ body {
   font-family: "Helvetica Neue",Helvetica,"PingFang SC","Hiragino Sans GB","Microsoft YaHei","微软雅黑",Arial,sans-serif;
   user-select: none; /* 禁止用户鼠标在页面上选中文字/图片等 */
   -webkit-tap-highlight-color: transparent; /* webkit是苹果浏览器引擎，tap点击，highlight背景高亮，color颜色，颜色用数值调节 */
+<<<<<<< HEAD
   background: var(--color-background);
   color: var(--color-text);        /*引入变量 */
   width: 100%;
 } 
+=======
+  background: var(--color-background);  /*引入css中定义的变量方式 */
+  color: var(--color-text);
+  width: 100vw;
+}
+>>>>>>> 1049041f2f0d320294b170adb2890e84194cacea
 
 a {
   color: var(--color-text);
@@ -32,7 +52,11 @@ a {
 }
 
 
+<<<<<<< HEAD
 .clear-fix::after {
+=======
+ .clear-fix::after {     /* 清除浮动 */
+>>>>>>> 1049041f2f0d320294b170adb2890e84194cacea
   clear: both;
   content: '';
   display: block;
